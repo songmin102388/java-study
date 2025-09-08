@@ -11,6 +11,8 @@ public class ArrayCopyByForExample {
 		}
 		for(int i=0; i<newIntArray.length; i++) {
 			System.out.println(newIntArray[i] + ", ");
+			System.out.println();
+			
 		}
 
 	}
