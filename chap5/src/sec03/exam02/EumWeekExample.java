@@ -2,11 +2,12 @@ package sec03.exam02;
 
 import java.util.Calendar;
 import sec03.exam01.Week;
+
 public enum EumWeekExample {
 	
 	public static void main(String[] args) {
 		Week today = null;
-		Calendar cal.get(Calendar.DAY_OF_WEEK);
+		Calendar cal =  Calendar.getInstance();
 		int week = cal.get(Calendar.DAY_OF_WEEK); // 1~7의 숫자 반환
 		switch(week) {
 			case 1: today = Week.SUNDAY; break;
@@ -21,4 +22,5 @@ public enum EumWeekExample {
 		if(today == Week.SUNDAY) System.out.println("일요일에는 축구를 합니다.");
 		else System.out.println("열심히 자바 공부합니다.");
 	}
+	
 }
