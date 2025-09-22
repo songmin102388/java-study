@@ -1,9 +1,9 @@
 package sec05.exam03;
 
 public class Car {
-	int speed;
+	int speed;  //인스턴스 메소드 
 	
-	void run() {
+	void run() {  // 인스턴스 필드 
 		System.out.println(speed + "으로 달립니다.");
 	}
 	
