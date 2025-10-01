@@ -1,5 +1,4 @@
 package sec01.exam05;
 
-public class Member {
-
+public final class Member {
 }

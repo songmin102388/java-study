@@ -3,7 +3,7 @@ package sec03.exam02;
 import java.util.Calendar;
 import sec03.exam01.Week;
 
-public enum EumWeekExample {
+public enum EumWeekExample{
 	
 	public static void main(String[] args) {
 		Week today = null;
@@ -18,9 +18,15 @@ public enum EumWeekExample {
 			case 6: today = Week.FRIDAY; break;
 			case 7: today = Week.SATURDAY; break;
 		}
+		
 		System.out.println("오늘의 요일: " + today);
-		if(today == Week.SUNDAY) System.out.println("일요일에는 축구를 합니다.");
-		else System.out.println("열심히 자바 공부합니다.");
-	}
+		
+		if(today == Week.SUNDAY) {
+			System.out.println("일요일에는 축구를 합니다.");
+		}
+		else {
+			System.out.println("열심히 자바 공부합니다.");
+		}
 	
+	}
 }
