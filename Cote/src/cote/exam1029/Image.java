@@ -18,7 +18,7 @@ public class Image implements Clickable, Drawable{
 	@Override
 	public void draw() {
 		if (url != null) {
-			System.out.println("파일을 그립니다.");
+			System.out.println(url + "파일을 그립니다.");
 		}
 				
 		

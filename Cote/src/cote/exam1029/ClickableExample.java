@@ -6,7 +6,7 @@ public class ClickableExample {
 		Clickable c1 = new Image("a.jpg");
 		Clickable c2 = new Button("OK");
 		Drawable c3 = new Image("b.jpg");
-		Drawable c4 = new Button("OKKKKKKKKK");
+		Drawable c4 = new Button("BLACKBROWNYELLOWWHITEWHAT");
 		
 		c1.click();
 		c2.click();

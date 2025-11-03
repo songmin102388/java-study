@@ -16,7 +16,7 @@ public class Button implements Clickable, Drawable{
 	@Override
 	public void draw() {
 		if(label != null) {
-			System.out.println("버튼을 그립니다.");
+			System.out.println(label + "버튼을 그립니다.");
 		}
 		
 	}

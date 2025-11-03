@@ -3,7 +3,7 @@ package sec03.exam02;
 import java.util.Calendar;
 import sec03.exam01.Week;
 
-public enum EumWeekExample{
+public class EumWeekExample {
 	
 	public static void main(String[] args) {
 		Week today = null;
