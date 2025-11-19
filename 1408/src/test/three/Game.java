@@ -8,8 +8,7 @@ public class Game {
 		
 			
 				
-		m1.defense(m2.attack());
-		m2.defense(m1.attack());
+		
 		
 	}
 
