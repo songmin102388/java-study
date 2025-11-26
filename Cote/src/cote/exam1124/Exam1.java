@@ -17,8 +17,8 @@ public class Exam1 {
 			
 		}
 		catch(ArrayIndexOutOfBoundsException e) {
-			System.out.println("범위 안에서 입력해라");
-			System.out.println(values[0]);
+			System.out.println("ㅂㅅ이야?? 범위 안에서 입력해..");
+			
 		}
 		scanner.close();
 		
