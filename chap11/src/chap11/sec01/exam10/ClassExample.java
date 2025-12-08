@@ -10,7 +10,7 @@ public class ClassExample {
 		
 		System.out.println(photo1Path);
 		System.out.println(photo2Path);
-
+		
 	}
 
 }
