@@ -14,5 +14,6 @@
     <fullyQualifiedTypeName name="java.lang.StringIndexOutOfBoundsException"/>
     <fullyQualifiedTypeName name="java.text.SimpleDateFormat"/>
     <fullyQualifiedTypeName name="java.sql.Date"/>
+    <fullyQualifiedTypeName name="com.mysql.cj.x.protobuf.MysqlxNotice.Frame"/>
     <fullyQualifiedTypeName name="java.awt.Frame"/>
 </qualifiedTypeNameHistroy>
