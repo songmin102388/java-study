@@ -45,7 +45,8 @@ private void start() {
 }
 
 private void init() {
-	this.pack();
+	this.setSize(500, 200);
+	// this.pack();
 	lb0.setBackground(Color.yellow);
 	lb1.setBackground(Color.yellow);
 	lb2.setBackground(Color.yellow);
